@@ -1,4 +1,4 @@
-baseurl: "http://localhost:1313/"
+baseurl: "http://2019.pythonsudeste.org"
 title: "Python Sudeste"
 canonifyurls: true
 theme: "hugo-conference"
