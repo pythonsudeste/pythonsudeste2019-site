@@ -1,20 +1,19 @@
-baseurl: "https://example.org/"
-title: "Conference name"
+baseurl: "http://localhost:1313/"
+title: "Python Sudeste"
 canonifyurls: true
 theme: "hugo-conference"
 
-GoogleAnalytics: "UA-9232216-1"
+GoogleAnalytics: ""
 
 params:
-  # Conference info
-  Name: "Conference name"
-  Description: "Conference description"
-  Date: "November 15"
-  Price: "Only $100" # If your event is free, just comment this line
-  Venue: "Coco Bongo"
-  Address: "Boulevard Kukulcan, 30"
-  City:  "Cancún"
-  State: "Quintana"
+  Name: "Python Sudeste 2019"
+  Description: "4ª conferência das comunidades Python do Sudeste"
+  # Date: "Data a confirmar"
+  # Price: "Only $100" # If your event is free, just comment this line
+  # Venue: "Local a confirmar"
+  # Address: ""
+  City:  "Vitória"
+  State: "Espírito Santo"
   Images: ["/img/badge.jpg"]
   GoogleMapsKey: "my-secret-maps-key"
 
@@ -22,32 +21,32 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
-    - location
-    - speakers
-    - schedule
-    - sponsors
-    - partners
-    #- contact
+    # - location
+    # - speakers
+    # - schedule
+    # - sponsors
+    # - partners
+    - contact
 
   # Titles which you can translate to other languages
   Titles:
-    about: "About"
+    about: "Sobre"
     location: "Location"
     speakers: "Speakers"
     schedule: "Schedule"
     sponsors: "Sponsors"
     partners: "Partners"
-    contact: "Contact"
+    contact: "Contato"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  CallToAction:
-    text: "Register now!"
-    link: "http://register.example.com"
+  # CallToAction:
+    # text: "Register now!"
+    # link: "http://register.example.com"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
-  ForkButton:
-    repository: "https://github.com/jweslley/hugo-conference/"
+  # ForkButton:
+    # repository: "https://github.com/jweslley/hugo-conference/"
 
   # List of Sponsors
   Sponsors:
