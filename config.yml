@@ -8,20 +8,20 @@ GoogleAnalytics: ""
 params:
   Name: "Python Sudeste 2019"
   Description: "4ª conferência das comunidades Python do Sudeste"
-  # Date: "Data a confirmar"
+  Date: "27 - 28 Palestras"
   # Price: "Only $100" # If your event is free, just comment this line
-  # Venue: "Local a confirmar"
-  # Address: ""
+  Venue: "Hotel Sesc"
+  Address: "R. Bráulio Macedo, 417 - Ilha do Boi, Vitória - ES, 29052-640"
   City:  "Vitória"
   State: "Espírito Santo"
   Images: ["/img/badge.jpg"]
-  GoogleMapsKey: "my-secret-maps-key"
+  GoogleMapsKey: "AIzaSyCN8_9Bdas2X4ZxnH1umcGY4ektDT5HZW8"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
     - about
-    # - location
+    - location
     # - speakers
     # - schedule
     # - sponsors
@@ -31,7 +31,7 @@ params:
   # Titles which you can translate to other languages
   Titles:
     about: "Sobre"
-    location: "Location"
+    location: "Localização"
     speakers: "Speakers"
     schedule: "Schedule"
     sponsors: "Sponsors"
