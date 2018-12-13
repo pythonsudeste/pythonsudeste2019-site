@@ -8,60 +8,60 @@ GoogleAnalytics: "UA-130207122-1"
 params:
   Name: "Python Sudeste 2019"
   Description: "4ª conferência das comunidades Python do Sudeste"
-  Date: "27 - 28 Palestras"
-  # Price: "Only $100" # If your event is free, just comment this line
-  Venue: "Hotel Senac"
-  Address: "R. Bráulio Macedo, 417 - Ilha do Boi, Vitória - ES, 29052-640"
+  Date: "27 e 28 Abril de 2019"
+  #Price: "" # If your event is free, just comment this line
+  Venue: "Vitória - ES"
+  Address: "Ilha do Boi - Hotel Senac"
   City:  "Vitória"
   State: "Espírito Santo"
   Images: ["/img/badge.jpg"]
-  GoogleMapsKey: "AIzaSyCN8_9Bdas2X4ZxnH1umcGY4ektDT5HZW8"
+  GoogleMapsKey: "AIzaSyCETwmbTe-1qtV1m8xt_8KR1bcNtKMyeAk"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
     - about
     - location
-    # - speakers
-    # - schedule
-    # - sponsors
-    # - partners
+    #- speakers
+    #- schedule
+    - sponsors
+    - partners
     - contact
 
   # Titles which you can translate to other languages
   Titles:
     about: "Sobre"
     location: "Localização"
-    speakers: "Speakers"
-    schedule: "Schedule"
-    sponsors: "Sponsors"
-    partners: "Partners"
+    speakers: "Palestrantes"
+    schedule: "Agenda"
+    sponsors: "Patrocinadores"
+    partners: "Parceiros"
     contact: "Contato"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  # CallToAction:
-    # text: "Register now!"
-    # link: "http://register.example.com"
+  CallToAction:
+    #text: "Increva-se agora!"
+    #link: "https://www.eventbrite.com.br/e/python-sudeste-2019-tickets-53317805993"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   # ForkButton:
     # repository: "https://github.com/jweslley/hugo-conference/"
 
+  #About
+
+
   # List of Sponsors
   Sponsors:
-    - name: "Hugo"
-      logo: "/img/hugo.png"
-      url: "http://gohugo.io"
+    - name: "UCL"
+      logo: "/img/logo_ucl.png"
+      url: "https://www.ucl.br"
 
   # List of Partners
   Partners:
-    - name: "Hugo"
-      logo: "/img/hugo.jpg"
-      url: "https://gohugo.io"
-    - name: "BrazilJS"
-      logo: "/img/partner.png"
-      url: "http://braziljs.org"
+    - name: "Hotel Ilha do Boi"
+      logo: "/img/logohotel.png"
+      url: "http://www.hotelilhadoboi.com.br/"
 
   # The entire schedule
   Schedule:
