@@ -8,14 +8,14 @@ GoogleAnalytics: "UA-130207122-1"
 params:
   Name: "Python Sudeste 2019"
   Description: "4ª conferência das comunidades Python do Sudeste"
-  Date: "26 a 28 de abril de 2019"
+  Date: "27 - 28 Palestras"
   # Price: "Only $100" # If your event is free, just comment this line
-  Venue: "Hotel Senac Ilha do Boi"
-  Address: "Rua Bráulio Macedo, 417 - Ilha do Boi"
+  Venue: "Hotel Senac"
+  Address: "R. Bráulio Macedo, 417 - Ilha do Boi, Vitória - ES, 29052-640"
   City:  "Vitória"
   State: "Espírito Santo"
   Images: ["/img/badge.jpg"]
-  GoogleMapsKey: "AIzaSyB8vVjcxtsjU2YcvEPJTCI3fuA_kAnAQFs"
+  GoogleMapsKey: "AIzaSyCN8_9Bdas2X4ZxnH1umcGY4ektDT5HZW8"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
@@ -31,7 +31,7 @@ params:
   # Titles which you can translate to other languages
   Titles:
     about: "Sobre"
-    location: "Local"
+    location: "Localização"
     speakers: "Speakers"
     schedule: "Schedule"
     sponsors: "Sponsors"
