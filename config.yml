@@ -1,4 +1,4 @@
-baseurl: "https://pythonsudeste.github.io/pythonsudeste2019-site/"
+baseurl: "http://2019.pythonsudeste.org"
 title: "Python Sudeste"
 canonifyurls: true
 theme: "hugo-conference"
