@@ -8,7 +8,8 @@ GoogleAnalytics: "UA-130207122-1"
 params:
   Name: "Python Sudeste 2019"
   Description: "4ª conferência das comunidades Python do Sudeste"
-  Date: "27 e 28 Abril de 2019"
+  DatePreConf: "26 de Abril - Tutoriais & Sprints"
+  DateConf: "27 e 28 Abril - Palestras"
   #Price: "" # If your event is free, just comment this line
   Venue: "Vitória - ES"
   Address: "Ilha do Boi - Hotel Senac"
