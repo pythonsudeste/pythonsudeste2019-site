@@ -11,8 +11,9 @@ params:
   DatePreConf: "26 de Abril - Tutoriais & Sprints"
   DateConf: "27 e 28 Abril - Palestras"
   #Price: "" # If your event is free, just comment this line
-  Venue: "Vitória - ES"
-  Address: "Ilha do Boi - Hotel Senac"
+  VenuePreConf: "UCL – Faculdade do Centro Leste"
+  VenueConf: "Hotel Senac Ilha do Boi"
+  Address: "Hotel Senac Ilha do Boi"
   City:  "Vitória"
   State: "Espírito Santo"
   Images: ["/img/badge.jpg"]
