@@ -18,6 +18,7 @@ params:
   State: "Espírito Santo"
   Images: ["/img/badge.jpg"]
   GoogleMapsKey: "AIzaSyCETwmbTe-1qtV1m8xt_8KR1bcNtKMyeAk"
+  Sponsorship: "/PlanoCaptacaoPythonSudeste2019.pdf"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
