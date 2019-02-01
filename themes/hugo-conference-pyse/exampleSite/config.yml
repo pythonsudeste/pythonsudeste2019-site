@@ -1,72 +1,68 @@
-baseurl: "https://2019.pythonsudeste.org"
-title: "Python Sudeste"
+baseurl: "https://example.org/"
+title: "Conference name"
 canonifyurls: true
-theme: "hugo-conference-pyse"
+theme: "hugo-conference"
 
-GoogleAnalytics: "UA-130207122-1"
+GoogleAnalytics: "UA-9232216-1"
 
 params:
-  Name: "Python Sudeste 2019"
-  Description: "4ª conferência das comunidades Python do Sudeste"
-  DatePreConf: "26 de Abril - Tutoriais & Sprints"
-  DateConf: "27 e 28 Abril - Palestras"
-  #Price: "" # If your event is free, just comment this line
-  VenuePreConf: "UCL – Faculdade do Centro Leste"
-  VenueConf: "Hotel Senac Ilha do Boi"
-  Address: "Hotel Senac Ilha do Boi"
-  City:  "Vitória"
-  State: "Espírito Santo"
+  # Conference info
+  Name: "Conference name"
+  Description: "Conference description"
+  Date: "November 15"
+  Price: "Only $100" # If your event is free, just comment this line
+  Venue: "Coco Bongo"
+  Address: "Boulevard Kukulcan, 30"
+  City:  "Cancún"
+  State: "Quintana"
   Images: ["/img/badge.jpg"]
-  GoogleMapsKey: "AIzaSyCETwmbTe-1qtV1m8xt_8KR1bcNtKMyeAk"
-  Sponsorship: "/PlanoCaptacaoPythonSudeste2019.pdf"
-  Call4PapersTutoriais: "https://speakerfight.com/events/python-sudeste-2019-tutoriais/"
-  Call4PapersPalestras: "https://speakerfight.com/events/python-sudeste-2019-palestras/"
+  GoogleMapsKey: "my-secret-maps-key"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
     - about
     - location
-    #- speakers
-    #- schedule
+    - speakers
+    - schedule
     - sponsors
     - partners
-    - contact
+    #- contact
 
   # Titles which you can translate to other languages
   Titles:
-    about: "Sobre"
-    location: "Localização"
-    speakers: "Palestrantes"
-    schedule: "Agenda"
-    sponsors: "Patrocinadores"
-    partners: "Parceiros"
-    contact: "Contato"
+    about: "About"
+    location: "Location"
+    speakers: "Speakers"
+    schedule: "Schedule"
+    sponsors: "Sponsors"
+    partners: "Partners"
+    contact: "Contact"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
-    text: "Inscreva-se agora!"
-    link: "https://www.eventbrite.com/e/python-sudeste-2019-tickets-55699760483"
+    text: "Register now!"
+    link: "http://register.example.com"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
-  # ForkButton:
-    # repository: "https://github.com/jweslley/hugo-conference/"
-
-  #About
-
+  ForkButton:
+    repository: "https://github.com/jweslley/hugo-conference/"
 
   # List of Sponsors
   Sponsors:
-    - name: "UCL"
-      logo: "/img/logo_ucl.png"
-      url: "https://www.ucl.br"
+    - name: "Hugo"
+      logo: "/img/hugo.png"
+      url: "http://gohugo.io"
 
   # List of Partners
   Partners:
-    - name: "Hotel Ilha do Boi"
-      logo: "/img/logohotel.png"
-      url: "http://www.hotelilhadoboi.com.br/"
+    - name: "Hugo"
+      logo: "/img/hugo.jpg"
+      url: "https://gohugo.io"
+    - name: "BrazilJS"
+      logo: "/img/partner.png"
+      url: "http://braziljs.org"
 
   # The entire schedule
   Schedule:
