@@ -19,6 +19,8 @@ params:
   Images: ["/img/badge.jpg"]
   GoogleMapsKey: "AIzaSyCETwmbTe-1qtV1m8xt_8KR1bcNtKMyeAk"
   Sponsorship: "/PlanoCaptacaoPythonSudeste2019.pdf"
+  Call4PapersTutoriais: "https://speakerfight.com/events/python-sudeste-2019-tutoriais/"
+  Call4PapersPalestras: "https://speakerfight.com/events/python-sudeste-2019-palestras/"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
@@ -44,8 +46,8 @@ params:
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
-    #text: "Increva-se agora!"
-    #link: "https://www.eventbrite.com.br/e/python-sudeste-2019-tickets-53317805993"
+    text: "Inscreva-se agora!"
+    link: "https://www.eventbrite.com/e/python-sudeste-2019-tickets-55699760483"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   # ForkButton:
