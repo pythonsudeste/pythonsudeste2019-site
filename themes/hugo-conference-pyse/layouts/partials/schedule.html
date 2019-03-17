@@ -8,7 +8,6 @@
 <script type="text/javascript">
   var lists = document.querySelectorAll(".schedule-tabs li"), 
       doSomething = function(evt) {
-          console.log('hello darkness my old friend');  
           [].map.call(lists, function(elem) { 
             elem.classList.remove('active');
             var id = elem.children[0].getAttribute('activate');

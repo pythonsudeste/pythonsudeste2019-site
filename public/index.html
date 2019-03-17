@@ -56,6 +56,12 @@
       </li>
     
       <li class="nav-item">
+        <a href="#schedule" target="_blank" title="Agenda" class="nav-link">
+          Agenda
+        </a>
+      </li>
+    
+      <li class="nav-item">
         <a href="#sponsors" target="_blank" title="Patrocinadores" class="nav-link">
           Patrocinadores
         </a>
@@ -175,16 +181,350 @@
 
           </section>
         
+          <section class="schedule" id="schedule">
+            <h2 class="section-title">Agenda</h2>
+
+<ul class="schedule-tabs">
+  <li class="active"><a href="#" activate="day-1">[26/04] Tutoriais - Dia 1</a></li>
+  <li><a href="#" activate="day-2">[27/04] Palestras - Dia 2</a></li>
+  <li><a href="#" activate="day-3">[28/04] Palestras - Dia 3</a></li>
+</ul>
+<script type="text/javascript">
+  var lists = document.querySelectorAll(".schedule-tabs li"), 
+      doSomething = function(evt) {
+          [].map.call(lists, function(elem) { 
+            elem.classList.remove('active');
+            var id = elem.children[0].getAttribute('activate');
+            document.getElementById(id).classList.add('hidden');
+          });
+          this.classList.add('active');
+          var id = this.children[0].getAttribute('activate');
+          document.getElementById(id).classList.remove('hidden');
+          evt.preventDefault();
+      };
+  [].map.call(lists, function(elem) {
+      elem.addEventListener('click', doSomething, false);
+  });
+</script>
+<div id="day-1" class="schedule-tbl">
+  <h3>Tutoriais & Sprints</h3>
+  <div class="schedule-location">
+    Os tutoriais vão acontecer na <strong>UCL - Faculdade do Centro Leste.</strong>
+    Em breve divulgaremos a grade.
+  </div>
+</div>
+<div id="day-2" class="schedule-tbl hidden">
+  <h3>Palestras</h3>
+  <div class="schedule-location"><strong>Hotel Senac Ilha do Boi</strong></div>
+  <table>
+    <thead>
+      <tr>
+        <th class="schedule-time">Horário</th>
+        <th class="schedule-slot">Palestra</th>
+        <th class="schedule-description">Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        
+          <tr class="schedule-other">
+            <td class="schedule-time">9h00</td>
+            <td class="schedule-slot">Credenciamento</td>
+            <td class="schedule-description">-</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">09h30</td>
+            <td class="schedule-slot">
+            
+
+              Keynote
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Vamos ter uma pessoa convidada para palestrar e abrir o evento!</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">10h20</td>
+            <td class="schedule-slot">
+            
+
+              Palestra 1
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Em breve</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">11h</td>
+            <td class="schedule-slot">
+            
+
+              Palestra 2
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Em breve</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">11h40</td>
+            <td class="schedule-slot">
+            
+
+              Palestra 3
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Em breve</td>
+          </tr>
+        
+      
+        
+          <tr class="schedule-other">
+            <td class="schedule-time">12h05</td>
+            <td class="schedule-slot">Almoço</td>
+            <td class="schedule-description">-</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">14h</td>
+            <td class="schedule-slot">
+            
+
+              Palestra 4
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Em breve</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">14h40</td>
+            <td class="schedule-slot">
+            
+
+              Palestra 5
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Em breve</td>
+          </tr>
+        
+      
+        
+          <tr class="schedule-other">
+            <td class="schedule-time">16h</td>
+            <td class="schedule-slot">Coffee break</td>
+            <td class="schedule-description">-</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">16h40</td>
+            <td class="schedule-slot">
+            
+
+              Palestra 6
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Em breve</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">17h20</td>
+            <td class="schedule-slot">
+            
+
+              Keynote
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Vamos ter uma pessoa convidada para palestrar e abrir o evento!</td>
+          </tr>
+        
+      
+        
+          <tr class="schedule-other">
+            <td class="schedule-time">18h10</td>
+            <td class="schedule-slot">Encerramento</td>
+            <td class="schedule-description">-</td>
+          </tr>
+        
+      
+    </tbody>
+  </table>
+</div>
+<div id="day-3" class="schedule-tbl hidden">
+  <h3>Palestras</h3>
+  <div class="schedule-location"><strong>Hotel Senac Ilha do Boi</strong></div>
+  <table>
+    <thead>
+      <tr>
+        <th class="schedule-time">Horário</th>
+        <th class="schedule-slot">Palestra</th>
+        <th class="schedule-description">Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        
+          <tr class="schedule-other">
+            <td class="schedule-time">9h00</td>
+            <td class="schedule-slot">Credenciamento</td>
+            <td class="schedule-description">-</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">09h30</td>
+            <td class="schedule-slot">
+            
+
+              Keynote
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Vamos ter uma pessoa convidada para palestrar e abrir o evento!</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">10h20</td>
+            <td class="schedule-slot">
+            
+
+              Palestra 1
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Em breve</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">11h</td>
+            <td class="schedule-slot">
+            
+
+              Palestra 2
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Em breve</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">11h40</td>
+            <td class="schedule-slot">
+            
+
+              Palestra 3
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Em breve</td>
+          </tr>
+        
+      
+        
+          <tr class="schedule-other">
+            <td class="schedule-time">12h05</td>
+            <td class="schedule-slot">Almoço</td>
+            <td class="schedule-description">-</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">14h</td>
+            <td class="schedule-slot">
+            
+
+              Palestra 4
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Em breve</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">14h40</td>
+            <td class="schedule-slot">
+            
+
+              Palestra 5
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Em breve</td>
+          </tr>
+        
+      
+        
+          <tr class="schedule-other">
+            <td class="schedule-time">16h</td>
+            <td class="schedule-slot">Coffee break</td>
+            <td class="schedule-description">-</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">16h40</td>
+            <td class="schedule-slot">
+            
+
+              Palestra 6
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Em breve</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">17h20</td>
+            <td class="schedule-slot">
+            
+
+              Keynote
+              <span class="speakers-company"></span>
+            </td>
+            <td class="schedule-description">Vamos ter uma pessoa convidada para palestrar e abrir o evento!</td>
+          </tr>
+        
+      
+        
+          <tr class="schedule-other">
+            <td class="schedule-time">18h10</td>
+            <td class="schedule-slot">Encerramento</td>
+            <td class="schedule-description">-</td>
+          </tr>
+        
+      
+    </tbody>
+  </table>
+</div>
+
+
+          </section>
+        
           <section class="sponsors" id="sponsors">
             <h2 class="section-title">Patrocinadores</h2>
 
 <ul class="sponsors-list">
-
-  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="https://www.ucl.br" class="sponsor--link" itemprop="url" target="_blank">
-      <img src="https://2019.pythonsudeste.org/img/logo_ucl.png" alt="UCL" class="photo" itemprop="image">
-    </a>
-  </li>
 
 </ul>
 
@@ -201,6 +541,12 @@
   <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
     <a href="http://www.hotelilhadoboi.com.br/" class="partner-logo partner-link" itemprop="url" target="_blank">
       <img src="https://2019.pythonsudeste.org/img/logohotel.png" alt="Hotel Ilha do Boi" class="photo" itemprop="image">
+    </a>
+  </li>
+
+  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="https://www.ucl.br" class="partner-logo partner-link" itemprop="url" target="_blank">
+      <img src="https://2019.pythonsudeste.org/img/logo_ucl.png" alt="UCL" class="photo" itemprop="image">
     </a>
   </li>
 
