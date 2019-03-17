@@ -994,3 +994,8 @@ Multi-day conference stuff
 .schedule-tbl.hidden {
   display: none;
 }
+.schedule-location {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}

@@ -26,8 +26,8 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
-    # - location
-    #- speakers
+    - location
+    # - speakers
     - schedule
     - sponsors
     - partners
@@ -58,95 +58,230 @@ params:
 
   # List of Sponsors
   Sponsors:
-    - name: "UCL"
-      logo: "/img/logo_ucl.png"
-      url: "https://www.ucl.br"
 
   # List of Partners
   Partners:
     - name: "Hotel Ilha do Boi"
       logo: "/img/logohotel.png"
       url: "http://www.hotelilhadoboi.com.br/"
+    - name: "UCL"
+      logo: "/img/logo_ucl.png"
+      url: "https://www.ucl.br"
 
-  # The entire schedule
-  Schedule:
-    - name: "Check-in / Breakfast"
+  # The entire schedule for day 1
+  ScheduleDay1:
+    - name: "Credenciamento"
       time: "9h00"
 
-    - name: "Linus Torvalds"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Linux Foundation"
-      link:
-        href: "http://twitter.com/linus"
-        text: "@linus"
+    - name: "Keynote 1"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Empresa"
+      # link:
+        # href: "http://twitter.com/linus"
+        # text: "@linus"
       presentation:
-        title: "Digging into a Linux Kernel"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "10h00"
+        title: "Keynote"
+        description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
+        time: "09h30"
 
-    - name: "Bill Gates"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Microsoft"
-      link:
-        href: "http://github.com/billy95"
-        text: "@billy95"
+    - name: "Palestrante 1"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Microsoft"
+      # link:
+        # href: "http://github.com/billy95"
+        # text: "@billy95"
       presentation:
-        title: "Introducing Windows 12"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "11h00"
+        title: "Palestra 1"
+        description: "Em breve"
+        time: "10h20"
 
-    - name: "Lunch"
-      time: "12h00"
-
-    - name: "Chuck Norris"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Delta Command"
-      link:
-        href: "http://twitter.com/littlechuck"
-        text: "@littlechuck"
+    - name: "Palestrante 2"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Microsoft"
+      # link:
+        # href: "http://github.com/billy95"
+        # text: "@billy95"
       presentation:
-        title: "How to kill a elephant with one finger"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "13h00"
+        title: "Palestra 2"
+        description: "Em breve"
+        time: "11h"
 
-    - name: "Steve Jobs"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      link:
-        href: "http://github.com/stevie"
-        text: "@stevie"
+    - name: "Palestrante 3"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Microsoft"
+      # link:
+        # href: "http://github.com/billy95"
+        # text: "@billy95"
       presentation:
-        title: "Presenting iPad"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "14h00"
-
-    - name: "Coffee-break"
-      time: "15h00"
-
-    - name: "Mark Zuckerberg"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Facebook"
-      link:
-        href: "http://twitter.com/zuck"
-        text: "@zuck"
+        title: "Palestra 3"
+        description: "Em breve"
+        time: "11h40"
+    - name: "Almoço"
+      time: "12h05"
+    
+    - name: "Palestrante 4"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Microsoft"
+      # link:
+        # href: "http://github.com/billy95"
+        # text: "@billy95"
       presentation:
-        title: "Revealing Facebook Secrets"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "16h00"
-
-    - name: "Steve Wozniak"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      link:
-        href: "http://twitter.com/woz"
-        text: "@woz"
+        title: "Palestra 4"
+        description: "Em breve"
+        time: "14h"
+    
+    - name: "Palestrante 5"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Microsoft"
+      # link:
+        # href: "http://github.com/billy95"
+        # text: "@billy95"
       presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "17h00"
+        title: "Palestra 5"
+        description: "Em breve"
+        time: "14h40"
+
+    - name: "Coffee break"
+      time: "16h"
+    
+    - name: "Palestrante 6"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Microsoft"
+      # link:
+        # href: "http://github.com/billy95"
+        # text: "@billy95"
+      presentation:
+        title: "Palestra 6"
+        description: "Em breve"
+        time: "16h40"
+
+    - name: "Keynote 2"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Empresa"
+      # link:
+        # href: "http://twitter.com/linus"
+        # text: "@linus"
+      presentation:
+        title: "Keynote"
+        description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
+        time: "17h20"
+      
+    - name: "Encerramento"
+      time: "18h10"
+
+  # The entire schedule for day 2
+  ScheduleDay2:
+    - name: "Credenciamento"
+      time: "9h00"
+
+    - name: "Keynote 1"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Empresa"
+      # link:
+        # href: "http://twitter.com/linus"
+        # text: "@linus"
+      presentation:
+        title: "Keynote"
+        description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
+        time: "09h30"
+
+    - name: "Palestrante 1"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Microsoft"
+      # link:
+        # href: "http://github.com/billy95"
+        # text: "@billy95"
+      presentation:
+        title: "Palestra 1"
+        description: "Em breve"
+        time: "10h20"
+
+    - name: "Palestrante 2"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Microsoft"
+      # link:
+        # href: "http://github.com/billy95"
+        # text: "@billy95"
+      presentation:
+        title: "Palestra 2"
+        description: "Em breve"
+        time: "11h"
+
+    - name: "Palestrante 3"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Microsoft"
+      # link:
+        # href: "http://github.com/billy95"
+        # text: "@billy95"
+      presentation:
+        title: "Palestra 3"
+        description: "Em breve"
+        time: "11h40"
+    - name: "Almoço"
+      time: "12h05"
+    
+    - name: "Palestrante 4"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Microsoft"
+      # link:
+        # href: "http://github.com/billy95"
+        # text: "@billy95"
+      presentation:
+        title: "Palestra 4"
+        description: "Em breve"
+        time: "14h"
+    
+    - name: "Palestrante 5"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Microsoft"
+      # link:
+        # href: "http://github.com/billy95"
+        # text: "@billy95"
+      presentation:
+        title: "Palestra 5"
+        description: "Em breve"
+        time: "14h40"
+
+    - name: "Coffee break"
+      time: "16h"
+    
+    - name: "Palestrante 6"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Microsoft"
+      # link:
+        # href: "http://github.com/billy95"
+        # text: "@billy95"
+      presentation:
+        title: "Palestra 6"
+        description: "Em breve"
+        time: "16h40"
+
+    - name: "Keynote 2"
+      # photo: "/img/speaker.jpg"
+      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      # company: "Empresa"
+      # link:
+        # href: "http://twitter.com/linus"
+        # text: "@linus"
+      presentation:
+        title: "Keynote"
+        description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
+        time: "17h20"
+      
+    - name: "Encerramento"
+      time: "18h10"

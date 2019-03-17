@@ -24,55 +24,25 @@
   });
 </script>
 <div id="day-1" class="schedule-tbl">
-  <h3>Tutoriais</h3>
-  <!-- <table>
-    <thead>
-      <tr>
-        <th class="schedule-time">Time</th>
-        <th class="schedule-slot">Slot</th>
-        <th class="schedule-description">Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      {{ range $slot := .schedule }}
-        {{ if ne .presentation nil }}
-          <tr>
-            <td class="schedule-time">{{ .presentation.time }}</td>
-            <td class="schedule-slot">
-            {{ with .photo }}
-              <span class="speaker-photo">
-                <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
-              </span>
-            {{ end }}
-
-              {{ .presentation.title }}
-              <span class="speakers-company">{{ .company }}</span>
-            </td>
-            <td class="schedule-description">{{ .presentation.description }}</td>
-          </tr>
-        {{ else }}
-          <tr class="schedule-other">
-            <td class="schedule-time">{{ .time }}</td>
-            <td class="schedule-slot">{{ .name }}</td>
-            <td class="schedule-description">-</td>
-          </tr>
-        {{ end }}
-      {{ end }}
-    </tbody>
-  </table> -->
+  <h3>Tutoriais & Sprints</h3>
+  <div class="schedule-location">
+    Os tutoriais vão acontecer na <strong>UCL - Faculdade do Centro Leste.</strong>
+    Em breve divulgaremos a grade.
+  </div>
 </div>
 <div id="day-2" class="schedule-tbl hidden">
   <h3>Palestras</h3>
+  <div class="schedule-location"><strong>Hotel Senac Ilha do Boi</strong></div>
   <table>
     <thead>
       <tr>
-        <th class="schedule-time">Time</th>
-        <th class="schedule-slot">Slot</th>
-        <th class="schedule-description">Description</th>
+        <th class="schedule-time">Horário</th>
+        <th class="schedule-slot">Palestra</th>
+        <th class="schedule-description">Descrição</th>
       </tr>
     </thead>
     <tbody>
-      {{ range $slot := .schedule }}
+      {{ range $slot := .scheduleday1 }}
         {{ if ne .presentation nil }}
           <tr>
             <td class="schedule-time">{{ .presentation.time }}</td>
@@ -101,16 +71,17 @@
 </div>
 <div id="day-3" class="schedule-tbl hidden">
   <h3>Palestras</h3>
+  <div class="schedule-location"><strong>Hotel Senac Ilha do Boi</strong></div>
   <table>
     <thead>
       <tr>
-        <th class="schedule-time">Time</th>
-        <th class="schedule-slot">Slot</th>
-        <th class="schedule-description">Description</th>
+        <th class="schedule-time">Horário</th>
+        <th class="schedule-slot">Palestra</th>
+        <th class="schedule-description">Descrição</th>
       </tr>
     </thead>
     <tbody>
-      {{ range $slot := .schedule }}
+      {{ range $slot := .scheduleday2 }}
         {{ if ne .presentation nil }}
           <tr>
             <td class="schedule-time">{{ .presentation.time }}</td>
