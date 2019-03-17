@@ -171,7 +171,7 @@ params:
         # text: "@linus"
       presentation:
         title: "Keynote"
-        description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
+        description: "Vamos ter uma pessoa convidada para palestrar e fechar o evento!"
         time: "17h20"
       
     - name: "Encerramento"
@@ -271,7 +271,7 @@ params:
         description: "Em breve"
         time: "16h40"
 
-    - name: "Keynote 2"
+    - name: "Keynote 4"
       # photo: "/img/speaker.jpg"
       # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       # company: "Empresa"
@@ -280,7 +280,7 @@ params:
         # text: "@linus"
       presentation:
         title: "Keynote"
-        description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
+        description: "Vamos ter uma pessoa convidada para palestrar e fechar o evento!"
         time: "17h20"
       
     - name: "Encerramento"
