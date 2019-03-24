@@ -36,8 +36,8 @@
     <thead>
       <tr>
         <th class="schedule-time">Horário</th>
-        <th class="schedule-slot">Palestra</th>
-        <th class="schedule-description">Descrição</th>
+        <th class="schedule-slot">Palestrante</th>
+        <th class="schedule-description">Palestra</th>
       </tr>
     </thead>
     <tbody>
@@ -52,10 +52,9 @@
               </span>
             {{ end }}
 
-              {{ .presentation.title }}
-              <span class="speakers-company">{{ .company }}</span>
+              {{ .name }}
             </td>
-            <td class="schedule-description">{{ .presentation.description }}</td>
+            <td class="schedule-description">{{ .presentation.title }}</td>
           </tr>
         {{ else }}
           <tr class="schedule-other">
@@ -75,8 +74,8 @@
     <thead>
       <tr>
         <th class="schedule-time">Horário</th>
-        <th class="schedule-slot">Palestra</th>
-        <th class="schedule-description">Descrição</th>
+        <th class="schedule-slot">Palestrante</th>
+        <th class="schedule-description">Palestra</th>
       </tr>
     </thead>
     <tbody>
@@ -91,10 +90,9 @@
               </span>
             {{ end }}
 
-              {{ .presentation.title }}
-              <span class="speakers-company">{{ .company }}</span>
+              {{ .name }}
             </td>
-            <td class="schedule-description">{{ .presentation.description }}</td>
+            <td class="schedule-description">{{ .presentation.title }}</td>
           </tr>
         {{ else }}
           <tr class="schedule-other">

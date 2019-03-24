@@ -27,7 +27,7 @@ params:
   Sections:
     - about
     - location
-    # - speakers
+    - speakers
     - schedule
     - sponsors
     - partners
@@ -37,7 +37,7 @@ params:
   Titles:
     about: "Sobre"
     location: "Localização"
-    speakers: "Palestrantes"
+    speakers: "Keynotes"
     schedule: "Agenda"
     sponsors: "Patrocinadores"
     partners: "Parceiros"
@@ -58,6 +58,95 @@ params:
 
   # List of Sponsors
   Sponsors:
+    - name: "Picpay"
+      logo: "/img/logo_picpay.png"
+      url: "https://www.picpay.com/site"
+      tipo: "Diamante"
+    - name: "Globo"
+      logo: "/img/logo_globo.svg"
+      url: "https://www.globo.com/"
+      tipo: "Ouro"
+    - name: "Python Pro"
+      logo: "/img/logo_pythonpro.png"
+      url: "https://www.python.pro.br/"
+      tipo: "Prata"
+
+
+  # List of Speakers
+  Speakers:
+    - name: "Bernardo Fontes"
+      photo: "/img/keynote_bernado.jpeg"
+      bio: "Desenvolvedor de software há alguns anos, trabalha principalmente com Python e Django para desenvolver aplicativos web. Co-organizou a PythonSudeste 2017, no Rio de Janeiro, antigo mantenedor da lib model_mommy, trabalhou no Brasil.io ajudando a desenvolver visualizações em grafos, desenvolvedor do projeto outra33.bienal.org.br e publica diariamente visualizações de arte gerativa criadas através de código Python."
+      sites:
+       - name: "website"
+         href: "https://berinfontes.com"
+         text: "berinfontes.com"
+       - name: "twitter"
+         href: "https://twitter.com/bbfontes"
+         text: "@bbfontes"
+       - name: "github"
+         href: "https://github.com/berinhard/"
+         text: "@berinhard"
+      link:
+       href: "https://github.com/berinhard/"
+       text: "@berinhard"
+    - name: "Eduardo Mendes"
+      photo: "/img/keynote_eduardo.jpg"
+      bio: "Apto fazedor de lambdas, apaixonado por software livre e ciência."
+      sites:
+       - name: "twitter"
+         href: "https://twitter.com/dunossauro"
+         text: "@dunossauro"
+       - name: "youtube"
+         href: "https://youtube.com/c/eduardomendes"
+         text: "@eduardomendes"
+       - name: "github"
+         href: "https://github.com/dunossauro"
+         text: "@dunossauro"
+       - name: "gitlab"
+         href: "https://gitlab.com/dunossauro"
+         text: "@dunossauro"
+      link:
+       href: "https://github.com/dunossauro"
+       text: "@dunossauro"
+    - name: "Judite Cypreste"
+      photo: "/img/keynote_judite.jpg"
+      bio: "Jornalista de dados e já atuou nas redações do jornal Folha de S.Paulo e na agência de checagem Aos Fatos. Aprendeu a programar e escreveu reportagens fazendo raspagens e análises de dados com a linguagem de programação Python. É fundadora e diretora do Colaboradados, um veículo colaborativo sobre transparência e open data no brasil. Acredita que a programação pode ajudar a sociedade no caminho da cidadania."
+      sites:
+       - name: "website"
+         href: "https://judite.dev/"
+         text: "judite.dev"
+       - name: "twitter"
+         href: "https://twitter.com/juditecypreste"
+         text: "@juditecypreste"
+       - name: "github"
+         href: "https://github.com/juditecypreste"
+         text: "@juditecypreste"
+       - name: "linkedin"
+         href: "https://www.linkedin.com/in/juditecypreste/"
+         text: "@juditecypreste"
+       - name: "medium"
+         href: "https://medium.com/@juditecypreste"
+         text: "@juditecypreste"
+      link:
+       href: "https://github.com/juditecypreste"
+       text: "@juditecypreste"
+    - name: "Patricia Morimoto"
+      photo: "/img/keynote_patricia.jpg"
+      bio: "Desenvolvedora há mais de 15 anos e PyLady desde 2016, se tornou dev WEB graças à comunidade. Gosta muito do que faz, adora aprender e é apaixonada pela troca de experiências. Atualmente, dedica-se a projetos de inclusão e da comunidade Python."
+      sites:
+       - name: "twitter"
+         href: "https://twitter.com/excermori"
+         text: "@excermori"
+       - name: "instagram"
+         href: "https://www.instagram.com/paty_morimoto/"
+         text: "@paty_morimoto"
+       - name: "telegram"
+         href: "https://web.telegram.org/"
+         text: "@Patymori"
+      link:
+       href: "https://www.instagram.com/paty_morimoto/"
+       text: "@paty_morimoto"
 
   # List of Partners
   Partners:
@@ -85,81 +174,63 @@ params:
         description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
         time: "09h30"
 
-    - name: "Palestrante 1"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Microsoft"
-      # link:
-        # href: "http://github.com/billy95"
-        # text: "@billy95"
+    - name: "Flávio Pontes"
+      photo: "https://lh4.googleusercontent.com/-f8lajMGbt6Y/AAAAAAAAAAI/AAAAAAABI6s/6fwu5qgJh4w/photo.jpg"
       presentation:
-        title: "Palestra 1"
-        description: "Em breve"
+        title: "Clean Code in Pyton"
+        description: "Muito se fala sobre Clean Code, SOLID, padrões de software...
+                      Mas a maioria da literatura sobre esses temas são feitos para linguagens OO relativamtne antigas como Java e C#. E Python? O que seria Clean Code em Python?
+                      Vamos falar sobre implementações pythonicas dos diversos padrões de software OO, bem como legibilidade e considerações sobre arquitetura."
         time: "10h20"
 
-    - name: "Palestrante 2"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Microsoft"
-      # link:
-        # href: "http://github.com/billy95"
-        # text: "@billy95"
+    - name: "Carlo E. T. Oliveira"
+      photo: "https://avatars0.githubusercontent.com/u/1714799?v=4"
       presentation:
-        title: "Palestra 2"
-        description: "Em breve"
+        title: "Superpython: programação Python como pedagogia para ensino fundamental e médio"
+        description: "Estudar no ensino fundamental público é uma tarefa árdua, especialmente se você vive em uma área carente e conflagrada. Mas como isto mudaria se em vez de copiar matéria do quadro você pudesse estudar programando vídeo games? Esta é a proposta do projeto Superpython. Superpython é um projeto de código aberto, sendo uma WEB IDE desenvolvida pelo NCE/UFRJ e escrita em Brython. Estudantes do ensino médio e fundamental se reunem para apender Python enquanto desenvolvem games versando sobre a matéria que o professor quer ensinar. O Superpython conta com uma biblioteca gráfica e cada estudante constroi um módulo do jogo usando apenas o navegador."
         time: "11h"
 
-    - name: "Palestrante 3"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Microsoft"
-      # link:
-        # href: "http://github.com/billy95"
-        # text: "@billy95"
+    - name: "João Daher Neto"
+      photo: "https://lh3.googleusercontent.com/-69uRKjUkBAU/AAAAAAAAAAI/AAAAAAAAAkA/Flb8B9W3HtQ/photo.jpg"
       presentation:
-        title: "Palestra 3"
-        description: "Em breve"
+        title: "RabbitMQ: como fazer microsserviços conversarem"
+        description: "Microsserviços, por definição, devem ser pequenos, sem estado e independentes. Muitos erros comuns acontecem ao tentar comunicar serviços distintos. Ao implementar troca de dados sempre de forma síncrona, esquece-se de que um serviço não deve assumir do estado de outro, causando um efeito em cadeia de dependência. Outros optam pela simplicidade de isolar a aplicação, mas agregar os dados em uma única fonte.
+                      A maior dificuldade na migração de um monolito para um ecossistema de microsserviços está em garantir a independência, fazendo com que cada aplicação tenha um domínio de dados bem definido. Mas como isolar aplicações que precisam constantemente trocar informações?
+                      Irei abordar um caso de uso de como o time da eduK arquitetou a comunicação entre microsserviços Python/Django utilizando um serviço de mensageria de protocolo AMQP (RabbitMQ, CloudAMQP, Kafka) através do padrão PubSub. Esta palestra tem o intuito de apontar problemas comuns de configuração e demonstrar boas práticas de implementações a serem consideradas para manter a saúde e integridade dos dados no universo de aplicações."
         time: "11h40"
     - name: "Almoço"
       time: "12h05"
     
-    - name: "Palestrante 4"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Microsoft"
-      # link:
-        # href: "http://github.com/billy95"
-        # text: "@billy95"
+    - name: "Gustavo Carvalho"
+      photo: "https://lh5.googleusercontent.com/-W3j8uE2DEJg/AAAAAAAAAAI/AAAAAAAAK08/XTLcsGvV2mw/photo.jpg"
       presentation:
-        title: "Palestra 4"
-        description: "Em breve"
+        title: "[Web][Devops] Docker: melhorando sua vida como desenvolvedor Python"
+        description: "Anos atrás o processo de implantação de uma aplicação era basicamente um serviço como LAMP, que gerenciava interpretador da linguagem, banco de dados e servidor web.
+                      Atualmente, a tecnologia evoluiu a ponto de uma aplicação se comunicar com os serviços mais diversos, desde banco de dados até servidor de logs e engines de buscas.
+                      Com essa evolução, cresce também a complexidade de gerenciar tanto ambiente de desenvolvimento, quanto de produção.
+                      Docker é uma ferramenta que auxilia o provisionamento e execução dos mais variados serviços e linguagens sem muito trabalho, usando um ambiente isolado e controlado chamado de container. Com ele, é possível gerar imagens que se comportam da mesma maneira, independente do ambiente em que estão sendo executadas.
+                      Nesta palestra pretendo apresentar uma aplicação que reproduz um cenário real, com banco de dados, webpack, servidor web, Celery, Redis, RabbitMQ e mostrar como Docker pode ajudar a gerenciar tudo isso sem dor de cabeça.
+                      Ao fim, pretendo fazer o deploy desta aplicação no Heroku, usando o seu serviço de hospedagem de containers."
         time: "14h"
     
-    - name: "Palestrante 5"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Microsoft"
-      # link:
-        # href: "http://github.com/billy95"
-        # text: "@billy95"
+    - name: "Felipe Bidu"
+      photo: "https://avatars3.githubusercontent.com/u/247856?v=4"
       presentation:
-        title: "Palestra 5"
-        description: "Em breve"
+        title: "Como linguagens mudam e crescem ― o jeito Python"
+        description: "Nessa palestra vou abordar sobre a evolução das linguagens e como novas funcionalidades aparecem no Python.
+                      Ao longo da palestra, vou comparar o funcionamento de linguagens naturais como o Português e linguagens de programação como o Python para exemplificar as mudanças que ocorrem dentro dela.
+                      No final, irei falar do PEP-572, que implementa Assignment Expressions em Python, seu processo de adoção e como ele funciona. Essa modificação será publicada na versão final do Python 3.8, que será lançada em outubro deste ano.
+                      A palestra não abordará aspectos muito técnicos da implementação, então ela é apropriada tanto para iniciantes quanto para usuários avançados."
         time: "14h40"
 
     - name: "Coffee break"
       time: "16h"
     
-    - name: "Palestrante 6"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Microsoft"
-      # link:
-        # href: "http://github.com/billy95"
-        # text: "@billy95"
+    - name: "Emanuel Lima"
+      photo: "https://avatars1.githubusercontent.com/u/7927924?v=4"
       presentation:
-        title: "Palestra 6"
-        description: "Em breve"
+        title: "[Iniciantes] Consumindo uma API pela primeira vez: o caso HIBP"
+        description: "Houveram, nos últimos anos, vários vazamentos de informações sensíveis. Em tempos onde se discutem questões relacionadas à privacidade, é imperativo se perguntar as implicações do armazenamento de tantos dados pessoais por empresas que sofrem ataques. A primeira pergunta a ser feita é: o que fazer para saber se alguma conta ou senha sua foi vazada? Posso eu, um iniciante em programação fazer alguma coisa a respeito? Nesta palestra eu irei demonstrar como consumir a API do Have I Been Pwned usando Python  e farei algumas análises interessantes com os dados obtidos."
         time: "16h40"
 
     - name: "Keynote 2"
@@ -194,81 +265,63 @@ params:
         description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
         time: "09h30"
 
-    - name: "Palestrante 1"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Microsoft"
-      # link:
-        # href: "http://github.com/billy95"
-        # text: "@billy95"
+    - name: "Marlon Woelffel"
+      photo: "https://www.gravatar.com/avatar/2017563e09bbfae5f12c1ec48aa35004?s=40&d=mm"
       presentation:
-        title: "Palestra 1"
-        description: "Em breve"
+        title: "[Data Science] Da coleta de dados ao deploy com python."
+        description: "Nesta palestra pretendo apresentar um workflow básico de como realizar um projeto de Data Science tentando resumidamente mostrar aonde o python pode ser usado desde a coleta de dados até o deploy do modelo proposto.
+                      Está palestra seguirá os seguintes passos:
+                      Dados. O que são? Compreensão do projeto; Compreensão dos dados; Preparação dos dados; Modelagem; Avaliação; Implantação"
         time: "10h20"
 
-    - name: "Palestrante 2"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Microsoft"
-      # link:
-        # href: "http://github.com/billy95"
-        # text: "@billy95"
+    - name: "João Ricardo Lhullier Lugão"
+      photo: "https://lh3.googleusercontent.com/-iyoOL4lEtKs/AAAAAAAAAAI/AAAAAAAAFOo/qBhN8sppFgU/photo.jpg"
       presentation:
-        title: "Palestra 2"
-        description: "Em breve"
+        title: "Prova de Conceito? Protótipo? MVP? Produto Final? Afinal, quais as diferenças e o que isso importa para o seu projeto?"
+        description: "Existem diversas formas, abordagens e etapas para desenvolver um produto. As vezes a comunicação entre a equipe, os gerentes e o cliente fica confusa por falta de definição dos termos. Quantas vezes você já ouviu a frase 'ah, mas isso é só um MVP!' para justificar features não funcionais e bugs? Isso faz sentido?
+                      É permitido/possível escrever código sem testes e ele ser útil no processo de desenvolvimento do produto?
+                      Será que seu cliente realmente se importa com o nome dado ao que está sendo construido? Quando ele ouve protótipo, será que ele não tem uma esperança de que o negócio vá para produção com pouco esforço?
+                      Essa palestra tem o objetivo de trazer algumas reflexões sobre o assunto e trazer questionamentos importantes para quem desenvolve produtos para si ou para clientes: Em qual estágio você está? será que vale a pena pular um ou mais estágios? No que devemos prestar atenção, quais os cuidados e pontos de atenção em cada etapa / tipo de produto?"
         time: "11h"
 
-    - name: "Palestrante 3"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Microsoft"
-      # link:
-        # href: "http://github.com/billy95"
-        # text: "@billy95"
+    - name: "Rafael Galleani"
+      photo: "https://graph.facebook.com/v2.5/1735683149779843/picture?type=square&height=600&width=600&return_ssl_resources=1"
       presentation:
-        title: "Palestra 3"
-        description: "Em breve"
+        title: "[Web][Busca] Tenha velocidade nas buscas da sua aplicação com Elasticsearch e Django"
+        description: "Sua busca está lenta? Precisa que o retorno das suas informações sejam mais rápidos?
+                      Nesta palestra veremos como utilizar o Elasticsearch com Django para realizar buscas mais rápidas
+                      Iremos ver como persistir dado de uma aplicação Django com um banco relacional no Elasticsearch e então utilizar os dados do Elasticsearch para retornar os dados com maior velocidade do que seria retornando do banco relacional.
+                      Os ganhos são enormes, imagina que você precise retornar dados com muita velocidade mas devido a grande quantidade de registros, o seu banco de dados relacional não atende a sua demanda. Com os dados replicados no Elasticsearch você terá um ganho enorme nas suas buscas quanto a velocidade de retorno.
+                      Também abordarei rapidamente um pouco do Kibana que faz parte do Elastic Stack. O Kibana possibilita visualizarmos os nossos dados e também a criação de dashboards que ajuda a entendermos melhor nossos dados."
         time: "11h40"
     - name: "Almoço"
       time: "12h05"
     
-    - name: "Palestrante 4"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Microsoft"
-      # link:
-        # href: "http://github.com/billy95"
-        # text: "@billy95"
+    - name: "Alline Oliveira"
+      photo: "https://lh4.googleusercontent.com/-_o8-qr1_AZA/AAAAAAAAAAI/AAAAAAAAUW0/2Q-TtM0uNxU/photo.jpg"
       presentation:
-        title: "Palestra 4"
-        description: "Em breve"
+        title: "Arquitetura Enxuta na Cloud com Python"
+        description: "Arquitetura enxuta na Cloud - Como desenvolver um Mínimo Produto Viável (MVP) que seja flexível, utilizando o mínimo de código possível em sua construção. Tecnologias como Cloud Endpoints, NoOps e BigData estão aí para facilitar em muito essa tarefa de simplificação com eficiência (Alline Oliveira)"
         time: "14h"
     
-    - name: "Palestrante 5"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Microsoft"
-      # link:
-        # href: "http://github.com/billy95"
-        # text: "@billy95"
+    - name: "Pedro Lacerda"
+      photo: "https://avatars3.githubusercontent.com/u/609076?v=4"
       presentation:
-        title: "Palestra 5"
-        description: "Em breve"
+        title: "Como o GitHub faz o GitHub"
+        description: "O GitHub é o principal local onde os desenvolvedores dependem para hospedar e compartilhar seus códigos. Para ser capaz de fornecer um ambiente confiável para desenvolvedores em todo o mundo, nossa equipe de engenharia tem que usar técnicas avançadas de desenvolvimento de software.
+                      O objetivo desta palestra é apresentar como a equipe de Engenharia do GitHub desenvolve a plataforma GitHub. Quais são os processos, ferramentas, técnicas e tecnologias utilizadas no desenvolvimento da plataforma."
         time: "14h40"
 
     - name: "Coffee break"
       time: "16h"
-    
-    - name: "Palestrante 6"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Microsoft"
-      # link:
-        # href: "http://github.com/billy95"
-        # text: "@billy95"
+
+    - name: "Maurício Eugênio"
+      photo: "https://avatars0.githubusercontent.com/u/17911709?v=4"
       presentation:
-        title: "Palestra 6"
-        description: "Em breve"
+        title: "[Iniciante] Criando o seu mercado onde só tem mato."
+        description: "Nesta palestra irei desmistificar a falacia de que não há oportunidades. Mostrar como você pode criar o seu mercado é de uma forma simples.
+                      E dar dicas cruciais para poder criar o seu portifolio como programador.
+                      * Após essa palestra você irá  ter mais chances de conseguir seu primeiro emprego como programador python sem dúvida."
         time: "16h40"
 
     - name: "Keynote 4"

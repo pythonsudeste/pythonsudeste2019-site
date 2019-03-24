@@ -1,14 +1,45 @@
 <h2 class="section-title">{{ .titles.sponsors }}</h2>
 
-<ul class="sponsors-list">
-{{ range $sponsor := .sponsors }}
-  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="{{ .url }}" class="sponsor--link" itemprop="url" target="_blank">
-      <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
-    </a>
-  </li>
-{{ end }}
-</ul>
+<div class="sponsor-tipo">
+  <h4>Diamante</h4>
+  <ul class="sponsors-list diamante">
+  {{ range $sponsor := .sponsors }}
+    {{ if eq .tipo "Diamante" }}
+      <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+        <a href="{{ .url }}" class="sponsor--link" itemprop="url" target="_blank">
+          <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+  </ul>
+
+  <h4>Ouro</h4>
+  <ul class="sponsors-list ouro">
+    {{ range $sponsor := .sponsors }}
+      {{ if eq .tipo "Ouro" }}
+      <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+        <a href="{{ .url }}" class="sponsor--link" itemprop="url" target="_blank">
+          <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+        </a>
+      </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+
+  <h4>Prata</h4>
+  <ul class="sponsors-list prata">
+    {{ range $sponsor := .sponsors }}
+      {{ if eq .tipo "Prata" }}
+      <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+        <a href="{{ .url }}" class="sponsor--link" itemprop="url" target="_blank">
+          <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+        </a>
+      </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>
 
 <p>
   Se quiser se tornar um patrocinador, veja nosso <a href="{{ .sponsorship }}" itemprop="url" target="_blank">plano de patrocínio!</a>
