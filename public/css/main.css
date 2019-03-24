@@ -999,3 +999,17 @@ Multi-day conference stuff
   font-size: 1.5em;
   margin-bottom: 1em;
 }
+
+.diamante .sponsor--link{
+  width: 250px;
+  height: 250px;
+}
+
+.ouro .sponsor--link{
+  width: 200px;
+  height: 200px;
+}
+
+.speakers-sites {
+  font-size: 1em !important;
+}
