@@ -177,7 +177,7 @@ params:
     - name: "Flávio Pontes"
       photo: "https://lh4.googleusercontent.com/-f8lajMGbt6Y/AAAAAAAAAAI/AAAAAAABI6s/6fwu5qgJh4w/photo.jpg"
       presentation:
-        title: "Clean Code in Pyton"
+        title: "Clean Code in Python"
         description: "Muito se fala sobre Clean Code, SOLID, padrões de software...
                       Mas a maioria da literatura sobre esses temas são feitos para linguagens OO relativamtne antigas como Java e C#. E Python? O que seria Clean Code em Python?
                       Vamos falar sobre implementações pythonicas dos diversos padrões de software OO, bem como legibilidade e considerações sobre arquitetura."
