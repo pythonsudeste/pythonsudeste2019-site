@@ -198,8 +198,9 @@ params:
                       A maior dificuldade na migração de um monolito para um ecossistema de microsserviços está em garantir a independência, fazendo com que cada aplicação tenha um domínio de dados bem definido. Mas como isolar aplicações que precisam constantemente trocar informações?
                       Irei abordar um caso de uso de como o time da eduK arquitetou a comunicação entre microsserviços Python/Django utilizando um serviço de mensageria de protocolo AMQP (RabbitMQ, CloudAMQP, Kafka) através do padrão PubSub. Esta palestra tem o intuito de apontar problemas comuns de configuração e demonstrar boas práticas de implementações a serem consideradas para manter a saúde e integridade dos dados no universo de aplicações."
         time: "11h40"
+  
     - name: "Almoço"
-      time: "12h05"
+      time: "12h20"
     
     - name: "Gustavo Carvalho"
       photo: "https://lh5.googleusercontent.com/-W3j8uE2DEJg/AAAAAAAAAAI/AAAAAAAAK08/XTLcsGvV2mw/photo.jpg"
@@ -294,8 +295,9 @@ params:
                       Os ganhos são enormes, imagina que você precise retornar dados com muita velocidade mas devido a grande quantidade de registros, o seu banco de dados relacional não atende a sua demanda. Com os dados replicados no Elasticsearch você terá um ganho enorme nas suas buscas quanto a velocidade de retorno.
                       Também abordarei rapidamente um pouco do Kibana que faz parte do Elastic Stack. O Kibana possibilita visualizarmos os nossos dados e também a criação de dashboards que ajuda a entendermos melhor nossos dados."
         time: "11h40"
+
     - name: "Almoço"
-      time: "12h05"
+      time: "12h20"
     
     - name: "Alline Oliveira"
       photo: "https://lh4.googleusercontent.com/-_o8-qr1_AZA/AAAAAAAAAAI/AAAAAAAAUW0/2Q-TtM0uNxU/photo.jpg"
@@ -304,12 +306,11 @@ params:
         description: "Arquitetura enxuta na Cloud - Como desenvolver um Mínimo Produto Viável (MVP) que seja flexível, utilizando o mínimo de código possível em sua construção. Tecnologias como Cloud Endpoints, NoOps e BigData estão aí para facilitar em muito essa tarefa de simplificação com eficiência (Alline Oliveira)"
         time: "14h"
     
-    - name: "Pedro Lacerda"
-      photo: "https://avatars3.githubusercontent.com/u/609076?v=4"
+    - name: "Felipe Barelli"
+      photo: "/img/felipe_barelli.jpeg"
       presentation:
-        title: "Como o GitHub faz o GitHub"
-        description: "O GitHub é o principal local onde os desenvolvedores dependem para hospedar e compartilhar seus códigos. Para ser capaz de fornecer um ambiente confiável para desenvolvedores em todo o mundo, nossa equipe de engenharia tem que usar técnicas avançadas de desenvolvimento de software.
-                      O objetivo desta palestra é apresentar como a equipe de Engenharia do GitHub desenvolve a plataforma GitHub. Quais são os processos, ferramentas, técnicas e tecnologias utilizadas no desenvolvimento da plataforma."
+        title: "Introdução à Visão Computacional e Processamento de Imagens"
+        description: "Felipe Barelli é bacharel em Ciência da Computação pela Universidade Vila Velha (UVV) e especialista em Engenharia Elétrica com ênfase em Sistemas Inteligentes Aplicados à Automação pelo Instituto Federal do Espírito Santo (Ifes). Atualmente é aluno do curso de especialização em Ciência de Dados da Mackenzie e trabalha com pesquisa e desenvolvimento de sistemas inteligentes aplicados à automação na Liberfly e na Probot."
         time: "14h40"
 
     - name: "Coffee break"
