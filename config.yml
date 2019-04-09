@@ -224,6 +224,9 @@ params:
                       A palestra não abordará aspectos muito técnicos da implementação, então ela é apropriada tanto para iniciantes quanto para usuários avançados."
         time: "14h40"
 
+    - name: "A definir"
+      time: "15h20m"
+  
     - name: "Coffee break"
       time: "16h"
     
@@ -312,6 +315,9 @@ params:
         title: "Introdução à Visão Computacional e Processamento de Imagens"
         description: "Felipe Barelli é bacharel em Ciência da Computação pela Universidade Vila Velha (UVV) e especialista em Engenharia Elétrica com ênfase em Sistemas Inteligentes Aplicados à Automação pelo Instituto Federal do Espírito Santo (Ifes). Atualmente é aluno do curso de especialização em Ciência de Dados da Mackenzie e trabalha com pesquisa e desenvolvimento de sistemas inteligentes aplicados à automação na Liberfly e na Probot."
         time: "14h40"
+
+    - name: "A definir"
+      time: "15h20m"
 
     - name: "Coffee break"
       time: "16h"
