@@ -166,9 +166,9 @@ params:
     - name: "Credenciamento"
       time: "9h00"
 
-    - name: "Eduardo Mendes"
-      photo: "/img/keynote_eduardo.jpg"
-      bio: "Apto fazedor de lambdas, apaixonado por software livre e ciência."
+    - name: "Patricia Morimoto"
+      photo: "/img/keynote_patricia.jpg"
+      bio: "Desenvolvedora há mais de 15 anos e PyLady desde 2016, se tornou dev WEB graças à comunidade. Gosta muito do que faz, adora aprender e é apaixonada pela troca de experiências. Atualmente, dedica-se a projetos de inclusão e da comunidade Python."
       presentation:
           title: "Keynote"
           description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
@@ -243,12 +243,6 @@ params:
     - name: "Bernardo Fontes"
       photo: "/img/keynote_bernado.jpeg"
       bio: "Desenvolvedor de software há alguns anos, trabalha principalmente com Python e Django para desenvolver aplicativos web. Co-organizou a PythonSudeste 2017, no Rio de Janeiro, antigo mantenedor da lib model_mommy, trabalhou no Brasil.io ajudando a desenvolver visualizações em grafos, desenvolvedor do projeto outra33.bienal.org.br e publica diariamente visualizações de arte gerativa criadas através de código Python."
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Empresa"
-      # link:
-        # href: "http://twitter.com/linus"
-        # text: "@linus"
       presentation:
         title: "Keynote"
         description: "Vamos ter uma pessoa convidada para palestrar e fechar o evento!"
@@ -332,15 +326,9 @@ params:
                       * Após essa palestra você irá  ter mais chances de conseguir seu primeiro emprego como programador python sem dúvida."
         time: "16h40"
 
-    - name: "Patricia Morimoto"
-      photo: "/img/keynote_patricia.jpg"
-      bio: "Desenvolvedora há mais de 15 anos e PyLady desde 2016, se tornou dev WEB graças à comunidade. Gosta muito do que faz, adora aprender e é apaixonada pela troca de experiências. Atualmente, dedica-se a projetos de inclusão e da comunidade Python."
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Empresa"
-      # link:
-        # href: "http://twitter.com/linus"
-        # text: "@linus"
+    - name: "Eduardo Mendes"
+      photo: "/img/keynote_eduardo.jpg"
+      bio: "Apto fazedor de lambdas, apaixonado por software livre e ciência."
       presentation:
         title: "Keynote"
         description: "Vamos ter uma pessoa convidada para palestrar e fechar o evento!"
