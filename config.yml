@@ -66,6 +66,10 @@ params:
       logo: "/img/logo_globo.svg"
       url: "https://www.globo.com/"
       tipo: "Ouro"
+    - name: "Knowledge21"
+      logo: "/img/logo_k21.png"
+      url: "https://www.knowledge21.com.br/"
+      tipo: "Ouro"
     - name: "Python Pro"
       logo: "/img/logo_pythonpro.png"
       url: "https://www.python.pro.br/"
@@ -162,13 +166,15 @@ params:
     - name: "Credenciamento"
       time: "9h00"
 
-    - name: "Keynote 1"
+    - name: "Judite Cypreste"
       # photo: "/img/speaker.jpg"
       # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       # company: "Empresa"
       # link:
         # href: "http://twitter.com/linus"
         # text: "@linus"
+      photo: "/img/keynote_judite.jpg"
+      bio: "Jornalista de dados e já atuou nas redações do jornal Folha de S.Paulo e na agência de checagem Aos Fatos. Aprendeu a programar e escreveu reportagens fazendo raspagens e análises de dados com a linguagem de programação Python. É fundadora e diretora do Colaboradados, um veículo colaborativo sobre transparência e open data no brasil. Acredita que a programação pode ajudar a sociedade no caminho da cidadania."
       presentation:
         title: "Keynote"
         description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
@@ -224,7 +230,10 @@ params:
                       A palestra não abordará aspectos muito técnicos da implementação, então ela é apropriada tanto para iniciantes quanto para usuários avançados."
         time: "14h40"
 
-    - name: "A definir"
+    - name: "Marlon Ferrari"
+      photo: "/img/speaker-marlon.jpg"
+      presentation:
+        title: "Compreendendo dados com Python: Primeiras Regras em Data Mining"
       time: "15h20m"
   
     - name: "Coffee break"
@@ -237,7 +246,9 @@ params:
         description: "Houveram, nos últimos anos, vários vazamentos de informações sensíveis. Em tempos onde se discutem questões relacionadas à privacidade, é imperativo se perguntar as implicações do armazenamento de tantos dados pessoais por empresas que sofrem ataques. A primeira pergunta a ser feita é: o que fazer para saber se alguma conta ou senha sua foi vazada? Posso eu, um iniciante em programação fazer alguma coisa a respeito? Nesta palestra eu irei demonstrar como consumir a API do Have I Been Pwned usando Python  e farei algumas análises interessantes com os dados obtidos."
         time: "16h40"
 
-    - name: "Keynote 2"
+    - name: "Bernardo Fontes"
+      photo: "/img/keynote_bernado.jpeg"
+      bio: "Desenvolvedor de software há alguns anos, trabalha principalmente com Python e Django para desenvolver aplicativos web. Co-organizou a PythonSudeste 2017, no Rio de Janeiro, antigo mantenedor da lib model_mommy, trabalhou no Brasil.io ajudando a desenvolver visualizações em grafos, desenvolvedor do projeto outra33.bienal.org.br e publica diariamente visualizações de arte gerativa criadas através de código Python."
       # photo: "/img/speaker.jpg"
       # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       # company: "Empresa"
@@ -257,7 +268,9 @@ params:
     - name: "Credenciamento"
       time: "9h00"
 
-    - name: "Keynote 1"
+    - name: "Eduardo Mendes"
+      photo: "/img/keynote_eduardo.jpg"
+      bio: "Apto fazedor de lambdas, apaixonado por software livre e ciência."
       # photo: "/img/speaker.jpg"
       # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       # company: "Empresa"
@@ -316,7 +329,7 @@ params:
         description: "Felipe Barelli é bacharel em Ciência da Computação pela Universidade Vila Velha (UVV) e especialista em Engenharia Elétrica com ênfase em Sistemas Inteligentes Aplicados à Automação pelo Instituto Federal do Espírito Santo (Ifes). Atualmente é aluno do curso de especialização em Ciência de Dados da Mackenzie e trabalha com pesquisa e desenvolvimento de sistemas inteligentes aplicados à automação na Liberfly e na Probot."
         time: "14h40"
 
-    - name: "A definir"
+    - name: "Lightining Talks"
       time: "15h20m"
 
     - name: "Coffee break"
@@ -331,7 +344,9 @@ params:
                       * Após essa palestra você irá  ter mais chances de conseguir seu primeiro emprego como programador python sem dúvida."
         time: "16h40"
 
-    - name: "Keynote 4"
+    - name: "Patricia Morimoto"
+      photo: "/img/keynote_patricia.jpg"
+      bio: "Desenvolvedora há mais de 15 anos e PyLady desde 2016, se tornou dev WEB graças à comunidade. Gosta muito do que faz, adora aprender e é apaixonada pela troca de experiências. Atualmente, dedica-se a projetos de inclusão e da comunidade Python."
       # photo: "/img/speaker.jpg"
       # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       # company: "Empresa"
