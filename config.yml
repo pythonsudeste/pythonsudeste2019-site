@@ -166,19 +166,13 @@ params:
     - name: "Credenciamento"
       time: "9h00"
 
-    - name: "Judite Cypreste"
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Empresa"
-      # link:
-        # href: "http://twitter.com/linus"
-        # text: "@linus"
-      photo: "/img/keynote_judite.jpg"
-      bio: "Jornalista de dados e já atuou nas redações do jornal Folha de S.Paulo e na agência de checagem Aos Fatos. Aprendeu a programar e escreveu reportagens fazendo raspagens e análises de dados com a linguagem de programação Python. É fundadora e diretora do Colaboradados, um veículo colaborativo sobre transparência e open data no brasil. Acredita que a programação pode ajudar a sociedade no caminho da cidadania."
+    - name: "Eduardo Mendes"
+      photo: "/img/keynote_eduardo.jpg"
+      bio: "Apto fazedor de lambdas, apaixonado por software livre e ciência."
       presentation:
-        title: "Keynote"
-        description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
-        time: "09h30"
+          title: "Keynote"
+          description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
+          time: "09h30"
 
     - name: "Flávio Pontes"
       photo: "https://lh4.googleusercontent.com/-f8lajMGbt6Y/AAAAAAAAAAI/AAAAAAABI6s/6fwu5qgJh4w/photo.jpg"
@@ -268,15 +262,9 @@ params:
     - name: "Credenciamento"
       time: "9h00"
 
-    - name: "Eduardo Mendes"
-      photo: "/img/keynote_eduardo.jpg"
-      bio: "Apto fazedor de lambdas, apaixonado por software livre e ciência."
-      # photo: "/img/speaker.jpg"
-      # bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      # company: "Empresa"
-      # link:
-        # href: "http://twitter.com/linus"
-        # text: "@linus"
+    - name: "Judite Cypreste"
+      photo: "/img/keynote_judite.jpg"
+      bio: "Jornalista de dados e já atuou nas redações do jornal Folha de S.Paulo e na agência de checagem Aos Fatos. Aprendeu a programar e escreveu reportagens fazendo raspagens e análises de dados com a linguagem de programação Python. É fundadora e diretora do Colaboradados, um veículo colaborativo sobre transparência e open data no brasil. Acredita que a programação pode ajudar a sociedade no caminho da cidadania."
       presentation:
         title: "Keynote"
         description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
