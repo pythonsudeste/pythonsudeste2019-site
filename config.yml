@@ -160,6 +160,47 @@ params:
     - name: "UCL"
       logo: "/img/logo_ucl.png"
       url: "https://www.ucl.br"
+  
+  ScheduleTutoriais:
+    - name: "João Ricardo Lugão"
+      presentation:
+        title: "Sala 1 - Descansando com Django REST Framework"
+        time: "14h"
+
+    - name: "Marlon Ferrari"
+      presentation:
+        title: "Sala 2 - Introdução à visualização de dados com jupyter notebook e matplotlib"
+        time: "14h"
+
+    - name: "Alline Oliveira"
+      presentation:
+        title: "Sala 1 - Arquitetura Enxuta na Cloud com Python"
+        time: "15h"
+
+    - name: "Eduardo Mendes"
+      presentation:
+        title: "Sala 2 - Muito mais que map, filter e reduce"
+        time: "15h"
+
+    - name: "Suellen Leite"
+      presentation:
+        title: "Sala 1 - Python + Data Science with Jupyter"
+        time: "16h"
+
+    - name: "A definir"
+      presentation:
+        title: "Sala 2 - A definir"
+        time: "16h"
+
+    - name: "Alline Oliveira"
+      presentation:
+        title: "Sala 1 - Maratona Lean - Rapid Prototypes"
+        time: "17h"
+
+    - name: "Marlon Ferrari"
+      presentation:
+        title: "Sala 2 - Análise de dados com pandas e numpy"
+        time: "17h"
 
   # The entire schedule for day 1
   ScheduleDay1:
@@ -170,9 +211,9 @@ params:
       photo: "/img/keynote_patricia.jpg"
       bio: "Desenvolvedora há mais de 15 anos e PyLady desde 2016, se tornou dev WEB graças à comunidade. Gosta muito do que faz, adora aprender e é apaixonada pela troca de experiências. Atualmente, dedica-se a projetos de inclusão e da comunidade Python."
       presentation:
-          title: "Keynote"
-          description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
-          time: "09h30"
+        title: "Keynote"
+        description: "Vamos ter uma pessoa convidada para palestrar e abrir o evento!"
+        time: "09h30"
 
     - name: "Flávio Pontes"
       photo: "https://lh4.googleusercontent.com/-f8lajMGbt6Y/AAAAAAAAAAI/AAAAAAABI6s/6fwu5qgJh4w/photo.jpg"
