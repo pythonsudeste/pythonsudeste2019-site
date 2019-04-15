@@ -266,7 +266,7 @@ params:
         time: "14h40"
 
     - name: "Marlon Ferrari"
-      photo: "/img/speaker-marlon.jpg"
+      photo: "/img/speaker_marlon.jpg"
       presentation:
         title: "Compreendendo dados com Python: Primeiras Regras em Data Mining"
       time: "15h20m"
