@@ -167,9 +167,9 @@ params:
         title: "Sala 1 - Descansando com Django REST Framework"
         time: "14h"
 
-    - name: "Marlon Ferrari"
+    - name: "A definir"
       presentation:
-        title: "Sala 2 - Introdução à visualização de dados com jupyter notebook e matplotlib"
+        title: "Sala 2 - A definir"
         time: "14h"
 
     - name: "Alline Oliveira"
@@ -187,9 +187,9 @@ params:
         title: "Sala 1 - Python + Data Science with Jupyter"
         time: "16h"
 
-    - name: "A definir"
+    - name: "Marlon Ferrari"
       presentation:
-        title: "Sala 2 - A definir"
+        title: "Sala 2 - Introdução à visualização de dados com jupyter notebook e matplotlib"
         time: "16h"
 
     - name: "Alline Oliveira"
