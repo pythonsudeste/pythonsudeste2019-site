@@ -167,9 +167,9 @@ params:
         title: "Sala 1 - Descansando com Django REST Framework"
         time: "14h"
 
-    - name: "A definir"
+    - name: "Bianca Rosa"
       presentation:
-        title: "Sala 2 - A definir"
+        title: "Sala 2 - Desenvolvendo APIs sem dor de cabeça com Flask"
         time: "14h"
 
     - name: "Alline Oliveira"
@@ -269,7 +269,7 @@ params:
       photo: "/img/speaker_marlon.jpg"
       presentation:
         title: "Compreendendo dados com Python: Primeiras Regras em Data Mining"
-      time: "15h20m"
+        time: "15h20m"
   
     - name: "Coffee break"
       time: "16h"
