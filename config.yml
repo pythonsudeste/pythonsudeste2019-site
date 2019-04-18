@@ -232,7 +232,6 @@ params:
         time: "11h"
 
     - name: "Cristian Dean"
-      photo: "https://lh3.googleusercontent.com/-69uRKjUkBAU/AAAAAAAAAAI/AAAAAAAAAkA/Flb8B9W3HtQ/photo.jpg"
       presentation:
         title: "Thumbor: Performance e escalabilidade no processamento inteligente de imagens"
         time: "11h40"
