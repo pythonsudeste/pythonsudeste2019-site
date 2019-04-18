@@ -231,13 +231,10 @@ params:
         description: "Estudar no ensino fundamental público é uma tarefa árdua, especialmente se você vive em uma área carente e conflagrada. Mas como isto mudaria se em vez de copiar matéria do quadro você pudesse estudar programando vídeo games? Esta é a proposta do projeto Superpython. Superpython é um projeto de código aberto, sendo uma WEB IDE desenvolvida pelo NCE/UFRJ e escrita em Brython. Estudantes do ensino médio e fundamental se reunem para apender Python enquanto desenvolvem games versando sobre a matéria que o professor quer ensinar. O Superpython conta com uma biblioteca gráfica e cada estudante constroi um módulo do jogo usando apenas o navegador."
         time: "11h"
 
-    - name: "João Daher Neto"
+    - name: "Cristian Dean"
       photo: "https://lh3.googleusercontent.com/-69uRKjUkBAU/AAAAAAAAAAI/AAAAAAAAAkA/Flb8B9W3HtQ/photo.jpg"
       presentation:
-        title: "RabbitMQ: como fazer microsserviços conversarem"
-        description: "Microsserviços, por definição, devem ser pequenos, sem estado e independentes. Muitos erros comuns acontecem ao tentar comunicar serviços distintos. Ao implementar troca de dados sempre de forma síncrona, esquece-se de que um serviço não deve assumir do estado de outro, causando um efeito em cadeia de dependência. Outros optam pela simplicidade de isolar a aplicação, mas agregar os dados em uma única fonte.
-                      A maior dificuldade na migração de um monolito para um ecossistema de microsserviços está em garantir a independência, fazendo com que cada aplicação tenha um domínio de dados bem definido. Mas como isolar aplicações que precisam constantemente trocar informações?
-                      Irei abordar um caso de uso de como o time da eduK arquitetou a comunicação entre microsserviços Python/Django utilizando um serviço de mensageria de protocolo AMQP (RabbitMQ, CloudAMQP, Kafka) através do padrão PubSub. Esta palestra tem o intuito de apontar problemas comuns de configuração e demonstrar boas práticas de implementações a serem consideradas para manter a saúde e integridade dos dados no universo de aplicações."
+        title: "Thumbor: Performance e escalabilidade no processamento inteligente de imagens"
         time: "11h40"
   
     - name: "Almoço"
