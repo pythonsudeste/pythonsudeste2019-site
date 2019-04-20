@@ -160,6 +160,9 @@ params:
     - name: "UCL"
       logo: "/img/logo_ucl.png"
       url: "https://www.ucl.br"
+    - name: "Python Para Todos"
+      logo: "/img/logo_pythonparatodos.png"
+      url: "https://pythonparatodos.com.br/"
   
   ScheduleTutoriais:
     - name: "João Ricardo Lugão"
