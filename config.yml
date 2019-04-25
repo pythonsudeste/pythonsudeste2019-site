@@ -163,6 +163,12 @@ params:
     - name: "Python Para Todos"
       logo: "/img/logo_pythonparatodos.png"
       url: "https://pythonparatodos.com.br/"
+    - name: "PCENG"
+      logo: "/img/logo_pceng.png"
+      url: "http://www.pceng.com.br/"
+    - name: "PCEDU"
+      logo: "/img/logo_pcedu.png"
+      url: "http://www.pcedu.com.br/"
   
   ScheduleTutoriais:
     - name: "João Ricardo Lugão"
